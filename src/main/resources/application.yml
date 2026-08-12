@@ -17,6 +17,8 @@ spring:
 
 server:
   port: ${APP_PORT:8080}
+  servlet:
+    context-path: ${LARYON_API_PATH_PREFIX:/laryon-api}
 
 security:
   jwt:
