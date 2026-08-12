@@ -12,6 +12,8 @@ spring:
   flyway:
     enabled: true
     table: lay_flyway_schema_history
+    baseline-on-migrate: true
+    baseline-version: 0
 
 server:
   port: ${APP_PORT:8080}
