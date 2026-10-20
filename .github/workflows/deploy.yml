@@ -1,7 +1,7 @@
 name: Deploy laryon-api
 
 on:
-  push: { branches: [main] }
+  push: { branches: [desa] }
   workflow_dispatch: {}
 
 env:
